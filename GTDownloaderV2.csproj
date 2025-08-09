@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>GTDownloaderV2Logo.ico</ApplicationIcon>
+    <Description>A tool to download and manage Gorilla Tag verisons.</Description>
+    <Company>miniusbhater</Company>
+    <Authors>miniusbhater</Authors>
+    <PackAsTool>True</PackAsTool>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="GTDownloaderV2Logo.ico" />
+  </ItemGroup>
+
+</Project>
